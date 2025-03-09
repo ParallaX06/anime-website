@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Cinematic Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="anime-background.mp4" type="video/mp4">
+    </video>
+    
+    <div class="overlay"></div>
+    
+    <div class="section" id="intro">
+        <h1 class="title">Welcome to My Anime World</h1>
+    </div>
+    
+    <div class="section" id="about">
+        <h2>About Me</h2>
+        <p>This is where I tell my story with anime-inspired effects.</p>
+    </div>
+    
+    <div class="section" id="projects">
+        <h2>Projects</h2>
+        <p>My creative works and anime edits.</p>
+    </div>
+    
+    <div class="section" id="contact">
+        <h2>Contact</h2>
+        <p>Let's connect and talk anime!</p>
+    </div>
+    
+    <canvas id="particle-canvas"></canvas>
+</body>
+</html>
